@@ -1,0 +1,399 @@
+#head{
+    display: grid;
+    grid-template: 30% 60% /80% 10% 10%;
+    height: 400px;
+    width: 100%;
+    border: 2px solid black;
+    background-image:url(https://wallpaperaccess.com/full/825322.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+}
+
+#name{
+    font-size: 60px;
+    font-family:MS serif;
+    margin-left: 40px;
+    letter-spacing: 7px;
+    animation-name: name;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes name{
+    0%{color:yellow; text-shadow: 10px 10px 8px yellow;}
+    25%{color: blue; text-shadow: 10px 10px 8px blue;}
+    50%{color:red; text-shadow: 10px 10px 8px red;}
+    75%{color: green;text-shadow: 10px 10px 8px green;}
+    100%{color:yellow;text-shadow: 10px 10px 8px yellow;}
+
+}
+
+#up{
+    text-decoration:none;
+    color:blue;
+    font-size:25px;
+}
+.up{
+    margin-top:20px;
+}
+
+#quote{
+    font-size:50px;
+    color:red; 
+    margin-left: 200px;
+}
+
+#navigation{
+    display: grid;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(31, 27, 27, 0.349);
+    grid-auto-flow: column;
+}
+
+#page{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 5px;
+    margin-left: 10px;
+
+}
+
+.home{
+    display: grid;
+    grid-template: 400px / 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#front{
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+#items{
+    display: grid;
+    grid-template: 200px  / 20% 20% 20%;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.items{
+    height: 200px;
+    width:  200px;
+}
+#text{
+    color: rgb(182, 11, 11);
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 20%;
+    
+}
+
+.biryani {
+    display: grid;
+    grid-gap: 40px 20px;
+    height: 800px;
+    grid-template:330px 330px /32% 32% 32% ;
+    margin-top: 60px;
+    justify-content: center;
+    
+}
+
+#type{
+    height: 300px;
+    width: 400px;
+    border: inset 10px;
+    box-shadow:10px 10px 7px black;
+}
+#font{
+    margin-left: 10%;
+    text-decoration: none;
+    font-size:25px ;
+    color: black;
+}
+#font:hover{
+    font-size:30px ;
+}
+.cakes{
+    display: grid;
+    height: 800px;
+    grid-gap: 40px 20px;
+    grid-template: 330px 330px  /32% 32% 32% ;
+    margin-top: 60px;
+    justify-content: center;
+}
+#cake{
+    height: 300px;
+    width: 400px;
+    border: inset 10px;
+    box-shadow:10px 10px 7px black;
+}
+.burgers{
+    display: grid;
+    height: 800px;
+    grid-gap: 40px 20px;
+    grid-template: 330px 330px  / 32% 32% 32%;
+    margin-top: 60px;
+    justify-content: center;
+}
+#burger{
+    height: 300px;
+    width: 400px;
+    border: inset 10px;
+    box-shadow:10px 10px 7px black;
+}
+#body{
+    height: 850px;
+    width: 550px;
+    border: 2px solid rgb(99, 95, 95);
+    margin-left: 400px;
+    margin-top: 10px;
+    background-image: url(https://xtentertainment.com/wp-content/uploads/2015/03/Contact-us-Background.jpg);
+}
+#img{
+    width: 550px;
+    height:200px ;
+}
+#one{
+    display: grid;
+    height: 250px;
+    grid-template:120px 120px/50% 50% ;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size:15px ;
+    color: white;
+    margin-left: 20px;
+}
+#web{
+    text-decoration: none;
+    color: white; 
+}
+
+#num{
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: small;
+}
+#icon{
+    margin-left: 4px;
+    height: 40px;
+    width: 40px;
+}
+#icon:hover{
+    height: 50px;
+    width: 50px;
+}
+.icon{
+    text-align: center;
+    margin-top: 50px;
+     
+}
+#app{
+    margin-left: 4px;
+    height: 50px;
+    width: 150px;
+}
+#app:hover{
+    height: 55px;
+    width: 160px;
+}
+.app{
+    text-align: center;
+}
+#history{
+    font-size: 20px;
+}
+#gri{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.grid{
+    display: grid;
+    grid-template:400px/1fr 1fr ;
+   
+}
+#office{
+    height: 300px;
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+#form{
+    height: 200px;
+    width: 500px;
+    border: 2px solid rgb(99, 95, 95);
+    margin-left: 400px;
+    margin-top: 100px;
+    text-align: center;
+    background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-g20-summit-simple-business-background-picture-image_1100812.jpg);
+}
+#input{
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+}
+li{
+font-size:20px ;
+}
+#login{
+    height: 300px;
+    width: 500px;
+    border: 2px solid rgb(99, 95, 95);
+    margin-left: 400px;
+    margin-top: 10px;
+    border: 5px outset;
+    text-align: center;
+    background-image: url(https://w0.peakpx.com/wallpaper/112/776/HD-wallpaper-fon-38626-abstract-android-design-marshmallow-material-thumbnail.jpg);
+}
+#food{
+    height: 50px;
+    width: 50px;
+    margin-left: 500px;
+    background-color: white;
+    
+}
+#title{
+    font-family:segoe script;
+     font-size: 50px;
+     color:yellow;
+     text-shadow:8px 8px 5px red ;
+    
+}
+#placeholder{
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius:10px; 
+    font-size:18px;   
+}
+button{
+    background-color: #1877f2;
+}
+#new{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(228, 6, 6);
+}
+#signup{
+    height: 79vh;
+    width: 450px;
+    border: 1px solid rgb(99, 95, 95);
+    margin-left: 450px;
+    margin-top: 10px;
+    border: 5px outset;
+    text-align: center;
+    background-image: url(https://w0.peakpx.com/wallpaper/112/776/HD-wallpaper-fon-38626-abstract-android-design-marshmallow-material-thumbnail.jpg);
+}
+#label{
+    margin-left: 30px;
+    font-size: 20px
+}
+#firstname{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius:10px;
+} 
+#lastname{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius:10px;
+} 
+#num1{
+    margin-left: 38px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius:10px;
+}
+#dob{
+    margin-left: 13px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius:10px;
+} 
+#mail{
+    margin-left: 47px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius:10px;
+}
+#password{
+    margin-left: 38px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius:10px;
+}
+#confirm{
+    margin-left: 48px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius:10px;
+}
+#terms{
+    text-decoration: none;
+}
+#check{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#sign{
+    height: 30px;
+    width: 100px;
+    margin-top: 30px;
+}
+#but{
+    background-color: white;
+    border-style: none;
+    height: 300px;
+    width: 400px;
+}
+.card-header{
+    width: 97%;
+    background-color: white;
+    position: relative;
+    margin-left: 8px;
+}
+.card-footer{
+    text-align: center;
+}
+#add{
+    border: none;
+    background-color: white;
+    color:rgb(243, 9, 9);
+    font-weight: bolder;
+    font-size: larger;
+    height: 32px;
+    width: 10%;
+    background-color: rgb(214, 200, 179);
+    border-radius: 5px;
+}
+#increase{
+    border: none;
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+    height: 32px;
+}
+#final{
+    border: none;
+    font-weight: bolder;
+    border-radius: 10px;
+    height: 40px;
+    width: 50%;
+    margin-left: 80px;
+    color: white;
+    background-color: rgb(246, 12, 12);
+}
+
